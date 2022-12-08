@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open sans';
+
+}
+
+.Aplicacion {
+    display: flex;
+    height: 100vh;
+
+}
+
+main {
+    flex: 0 0 25%;
+}
+
+
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #e8ebe4;
+
+
+}
+
+.datosUser {
+    display:flex;
+    
+}
+.botones{
+    display: flex;
+
+}
+
+.username {
+    padding-left: 1em;
+
+}
+
+.thumbnailUser {
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+
+}
+
+menu {
+    border-right: 1px solid #e8ebe4;
+    overflow-y: auto;
+    height: 60vh;
+}
+
+article {
+    display: flex;
+    background-color: #f8f8f8;
+    flex-basis: 75%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article img {
+    width: 30%;
+
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-size: 3em;
+}
+
+.parrafo1 {
+    font-family: 'Open sans';
+    max-width: 55%;
+    text-align: center;
+}
+
+.contacto {
+    display: flex;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e8ebe4;
+}
+
+.thumbnail {
+    border-radius: 50px;
+    width: 64px;
+    height: 64px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    justify-content: center;
+
+}
+
+.status {
+    color: #bec1bb;
+    font-size: 0.8em ;
+}
+
+
+.menuBoton {
+    color: #bec1bb;
+    margin-left: 1rem;
+}
+
+
+
+.boton {
+    border-bottom: 1px solid #e8ebe4;
+    padding: 2em;
+    
+    display: flex;
+    
+
+}
+
+button {
+    background-color: #a491d2;
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+    border: none;
+    flex-basis: 100%;
+
+}
